@@ -1,10 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": null,
-  "installCommand": "npm install --include=dev",
-  "buildCommand": "npm run build --prefix frontend/city-rental-car-client",
-  "outputDirectory": "frontend/city-rental-car-client/dist",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
+  "framework": "nextjs",
+  "installCommand": "npm install",
+  "buildCommand": "npx prisma generate && npx next build"
 }
