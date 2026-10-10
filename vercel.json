@@ -1,9 +1,9 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
-  "installCommand": "npm install --include=dev --prefix frontend/city-rental-car-client",
-  "buildCommand": "npm run build --prefix frontend/city-rental-car-client",
-  "outputDirectory": "frontend/city-rental-car-client/dist",
+  "installCommand": "npm install --include=dev",
+  "buildCommand": "npx vite build",
+  "outputDirectory": "dist",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]

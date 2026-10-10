@@ -1,0 +1,15 @@
+{
+  "name": "city-rental-car-system",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "postinstall": "npm install --include=dev --prefix frontend/city-rental-car-client",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^6.1.1",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.0"
+  }
+}
