@@ -34,7 +34,7 @@ export function Modal({ open, title, children, onClose }) {
         aria-modal="true"
         aria-labelledby={titleId}
         tabIndex={-1}
-        className="fade-up relative z-10 w-full max-w-lg rounded-xl bg-surface p-6 shadow-modal outline-none"
+        className="fade-up relative z-10 max-h-[85vh] w-full max-w-lg overflow-y-auto rounded-xl bg-surface p-6 shadow-modal outline-none"
       >
         <div className="flex items-start justify-between gap-4">
           <h2 id={titleId} className="text-h3 text-foreground">

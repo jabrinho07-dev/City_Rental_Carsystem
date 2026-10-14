@@ -25,6 +25,23 @@ export const rentalExtras = [
   },
 ]
 
+export const adminVehicleFeatures = [
+  'Air Conditioning',
+  'Bluetooth',
+  'GPS Navigation',
+  'Backup Camera',
+  'Parking Sensors',
+  'Cruise Control',
+  'Leather Seats',
+  'Sunroof',
+  'USB Charging',
+  'Child Seat',
+]
+
+export const vehicleStatuses = ['Available', 'Reserved', 'Rented', 'Maintenance', 'Inactive']
+
+export const vehicleCategories = ['Economy', 'Sedan', 'SUV', 'Luxury', '4x4', 'Van']
+
 export const vehicleFeatures = [
   { id: 'air-conditioning', label: 'Air Conditioning' },
   { id: 'bluetooth', label: 'Bluetooth' },

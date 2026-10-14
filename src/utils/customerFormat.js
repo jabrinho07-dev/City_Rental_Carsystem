@@ -46,6 +46,8 @@ const paymentStatus = {
   Pending: { label: 'Pending', variant: 'pending' },
   Failed: { label: 'Failed', variant: 'unpaid' },
   Refunded: { label: 'Refunded', variant: 'completed' },
+  Cancelled: { label: 'Cancelled', variant: 'cancelled' },
+  'Partially Refunded': { label: 'Partially Refunded', variant: 'pending' },
 }
 
 export function bookingStatusView(status) {
